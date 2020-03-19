@@ -36,11 +36,11 @@
 
 ### 서블릿의 순서
 
-[./images/img1.daumcdn.png](images/img1_daumcdn.png)
+![./images/img1.daumcdn.png](images/img1_daumcdn.png)
 
 ### 서블릿 프로그램의 동작 과정
 
-[./images/servlet-program.png](./images/servlet-program.png)
+![./images/servlet-program.png](images/servlet-program.png)
 
 1. 클라이언트에서 요청을 한다.
 2. 정적/동적 컨텐츠인지 확인 후, 동적 컨텐츠일 경우 WAS 서버 요청(Web Container or Servlet Container 에게 위임)
