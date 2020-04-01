@@ -4,6 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>CustomFilter</filter-name>
+    <filter-class>me.CustomFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CustomFilter</filter-name>
+    <servlet-name>hello</servlet-name>
+  </filter-mapping>
+  <listener>
+    <listener-class>me.CustomListener</listener-class>
+  </listener>
   <servlet>
     <servlet-name>hello</servlet-name>
     <servlet-class>me.HelloServlet</servlet-class>
